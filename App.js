@@ -12,6 +12,7 @@ export default function App() {
   return (
     <View style={styles.container}>
       <Image source={mylogo} style={styles.logo} />
+      <Text style={{color: "white"}}>Sample</Text>
       <TextInput
         style={styles.input}
         placeholder="Email address or Username"
